@@ -1,0 +1,622 @@
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100%;
+
+}
+
+/*頁面滑動效果*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*----------------------------------------*/
+
+
+#meau{
+    width: 100%;
+}
+
+/*菜單區域*/
+div.meau_area{
+    background-color: #808080;
+
+    margin: 30px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+
+    /*圓角*/
+    border-radius: 50px;
+    
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+ul.meau_list{
+    list-style-type: none;
+    margin: 0px;
+}
+
+li.meau_choice{
+    display: inline;
+    padding: 0px 20px;
+    font-size: 30px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: black;
+    float: left;
+}
+
+li.meau_choice:hover{
+    
+    /*放大*/
+    transform: scale(1.1);
+    transition:all 0.8s ease 0s;
+
+    /*圓角*/
+    border-radius: 50px;
+    background-color: bisque;
+}
+
+
+/*----------------------------------------*/
+
+
+/*個人簡歷*/
+
+div.introduce_link{
+    width: 20%;
+}
+
+/*個人連結*/
+
+ul.align_st > li{
+    display: flex;
+}
+ul.align_st > li > h3{
+    align-self:center;
+    display: block;
+    float: right;
+    width: 50%;
+
+    text-align: center;
+}
+a.title_link{
+    text-decoration: none;
+    color: black;
+}
+ul.align_st > li > a.img_link{
+    width: 50%;
+    display:block;
+    margin-right: 20px;
+}
+img.logo{
+    max-width: 100%;
+}
+
+img.logo:hover{
+    transform: scale(1.1);
+    transition:all 0.8s ease 0s;    
+}
+
+/*個人簡歷 內文*/
+
+
+header.introduce_name{
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+div.introduce{
+
+    margin: 20px 20px 20px 20px;
+    
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+div.introduce_content{
+    width: 70%;
+    margin:20px 0px 20px 0px;
+
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+h1.introduce_title{
+    text-align: right;
+}
+
+img.head{
+
+    padding-right: 30px;
+
+    /*圓形頭像*/
+    width: 30%;
+	border-radius: 50%;
+	border: 0px solid;
+}
+
+img.head:hover{
+    transform: scale(1.1);
+    transition:all 0.8s ease 0s;    
+}
+
+/*間距*/
+div.space{
+    width: 3%;
+}
+
+/*文字框內容*/
+
+div.introduce_text{
+    background-color:antiquewhite;
+
+    /*圓角*/
+    border-radius: 50px;
+
+    width: 50%;
+
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+    font-size: 25px;
+    font-family: "微黑正軟體";
+    font-weight: bold;
+    text-align: center;
+
+}
+
+div.introduce_text:hover{
+    transform: scale(1.06);
+    transition:all 1s ease 0s;
+    box-shadow: 3px 3px 3px 3px #808080;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/*----------------------------------------*/
+
+
+/*作品集*/
+
+#work_title{
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#work_title > div{
+    width: 50%;
+    background-color: #808080;
+
+    /*圓角*/
+    border-radius: 50px;
+}
+
+#work_title > div > header{
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+/*----------------------------------------*/
+
+
+/*skill bar*/
+
+#skillbar_title{
+
+    margin: 20px 0px 20px 0px;
+
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#skillbar_title > div{
+    width: 50%;
+    background-color: #808080;
+
+    /*圓角*/
+    border-radius: 50px;
+}
+
+#skillbar_title > div > header{
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+/*skill bar內容*/
+
+    /*skill bar programming skill*/
+
+div.skillbar{
+    width: 100%;
+
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+div.skillbar1{
+    width: 30%;
+    margin: 50px 20px 50px 20px;
+    padding: 30px 30px 30px 30px;
+    
+    background-color: cornsilk;
+
+    border-radius: 30px;
+}
+
+div.skillbar1 > h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+div.container {
+    width: 100%;
+    background-color: #ddd; 
+    border-radius: 20px; 
+}
+  
+div.line {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    border-radius: 20px; 
+}
+  
+div.html{
+    animation: bar1 8s ease;
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+    /*skill bar動畫*/
+
+@keyframes bar1{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 90%;
+    }
+}
+
+div.css{
+    animation: bar2 8s ease;
+    width: 70%;
+    background-color:blueviolet;
+}
+
+@keyframes bar2{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+div.javascript{
+    animation: bar3 8s ease;
+    width: 30%;
+    background-color:blueviolet;
+}
+
+@keyframes bar3{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 30%;
+    }
+}
+
+div.java{
+    animation: bar4 8s ease;
+    width: 70%;
+    background-color:blueviolet;
+}
+
+@keyframes bar4{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+div.python{
+    animation: bar5 8s ease;
+    width: 35%;
+    background-color:blueviolet;   
+}
+
+@keyframes bar5{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 35%;
+    }
+}
+
+div.android{
+    animation: bar6 8s ease;
+    width: 80%;
+    background-color: aqua;
+}
+
+@keyframes bar6{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 80%;
+    }
+}
+
+    /*skill bar 圓圈*/
+
+div.skillbar2{
+    width: 40%;
+    margin: 50px 20px 50px 20px;
+    padding: 30px 30px 30px 30px;
+    
+    background-color: cornsilk;
+
+    border-radius: 30px;
+
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+div.skillbar2 > h1{
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+/*skill bar 攝影*/
+
+div.play {
+    display: inline-flex;
+}
+
+div.run {
+    width: 200px;
+    height: 200px;
+    background: #a3a0a0;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+div.mask {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+}
+
+div.inside {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    line-height: 170px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 22pt;
+    background-color: aliceblue;
+}
+
+div.fill {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    background-color: green;
+    animation: fill ease-in-out 8s;
+    transform: rotate(179deg);
+}
+
+div.mask.full {
+    animation: fill ease-in-out 8s;
+    transform: rotate(179deg);
+}
+
+@keyframes fill {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(179deg);
+    }
+}
+
+div.fill2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    background-color: green;
+    animation: fill2 ease-in-out 8s;
+    transform: rotate(95deg);
+}
+
+div.mask.full2 {
+    animation: fill2 ease-in-out 8s;
+    transform: rotate(95deg);
+}
+
+@keyframes fill2{
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(95deg);
+      }
+}
+
+
+/*----------------------------------------*/
+
+
+/*個人經歷*/
+
+#mylife_title{
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#mylife_title > div{
+    width: 50%;
+    background-color: #808080;
+
+    /*圓角*/
+    border-radius: 50px;
+}
+
+#mylife_title > div > header{
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+header.project_title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+div.cycuphoto_title{
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+header.club_name{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+a.cycuphoto_link{
+    text-decoration:none; 
+    color:black;
+}
+
+img.cycuphoto_logo:hover{
+    transform: scale(1.1);
+    transition:all 1s ease 0s;
+}
+
+div.cycuphoto{
+    margin: 30px 20px 30px 20px;
+
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+div.cycuphoto_content{
+    font-size: 15px;
+}
+
+div.im_title{
+    /*板塊置中*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+a.im_link{
+    text-decoration:none; 
+    color:black;
+}
+
+
+header.im_name{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+img.im_logo{
+    width: 100px;
+}
+
+img.im_logo:hover{
+    transform: scale(1.1);
+    transition:all 1s ease 0s;
+}
+
+/*----------------------------------------*/
+
+
+/*授權*/
+
+div.Copyright{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/*回頂部*/
+
+#gotop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;    
+    padding: 10px 15px;    
+    font-size: 20px;
+    font-weight: bolder;
+    background: #777;
+    color: white;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+#gotop:hover{
+    transform: scale(1.1);
+    transition:all 1s ease 0s;    
+}
